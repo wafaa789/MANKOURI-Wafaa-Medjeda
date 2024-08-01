@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Syne", sans-serif;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px  12%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: #285185;
+    text-shadow:     0 0 25px #285185,0 0 50px #285185;
+    transform: scale(1,1);
+
+
+}
+span{
+    color: #285185;
+}
+.navbar a{
+
+
+    font-size: 18px;
+    color: #CCD9E2;
+    font-weight: 600;
+    margin: 0 20px;
+border-bottom: 3px solid transparent;
+transition: 0.3 ease;
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+color: #285185;
+border-bottom: 3px solid #285185;
+
+}
+
+.contact{
+    padding: 10px 28px;
+    background-color: #d67940;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.contact:hover{
+    background-color: #285185;
+    box-shadow: 0 0 25px #285185;
+    color: #CCD9E2;
+}
+
+.acceuil{
+
+    width: 100%;
+    min-height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.acceuil-content{
+    max-width: 800px;
+}
+.acceuil-content h3{
+   font-size: 42px;
+}
+.acceuil-content h1{font-size: 40px;
+    line-height: 1.2;
+}
+.acceuil-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+ }
+ .btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+ }
+ .btn-1{
+
+    padding: 15px 20px;
+    background-color: #d67940;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.3S ease;
+    cursor: pointer;
+ }
+ .btn-1:hover{
+    background-color: #285185;
+    box-shadow: 0 0 25px #285185;
+    color: #CCD9E2;
+}
+
+
+.img-box img{
+    border-radius: 35%;
+    width: 400px;
+}
+
+::-webkit-scrollbar{
+
+
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #285185;
+}
+::-webkit-scrollbar-track{
+    background-color: #CCD9E2;
+    width: 20px;
+}
+.contact-form h2{
+    text-align: center;
+    margin: 3em;
+    margin-bottom: 1em;
+font-size: 36px;
+
+
+}
+
+
+ .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #CCD9E2;
+ }
+ .footer .SOCIAL{
+
+    text-align: center;
+    padding: 2px;
+    color: #285185;
+ }
+ .footer .SOCIAL a{
+
+    text-align: center;
+    padding: 5px;
+    color: #285185;
+    border: 2px solid #d67940;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 20px;
+    box-shadow: inset 0 0 10px #d67940, 0 0 10px #d67940;
+
+
+ }
+ .myBtn {
+    padding: 15px 20px;
+    background-color: #d67940;
+    color: #285185;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.3S ease;
+    cursor: pointer;
+  }
+  
+
+ .footer .SOCIAL a:hover{
+transform: scale(1,2) translateY(-10px); 
+color: #d67940;
+border: 2px solid #d67940;
+}
+header.sticky{
+    padding: 5px 14%;
+    background: transparent;
+    backdrop-filter: blur(25px);
+}
+.SERVICES{
+   
+    align-items: center;
+  
+}
+
+
+.wrapper{
+    margin: 10px auto;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+ h1{
+    color: #285185;
+    font-size: 30px;
+    text-shadow: 0 15px 18px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+ .cont{
+    display: grid;
+
+grid-gap: 15px;
+grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
+
+
+}
+.mail {
+   padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border-color: #CCD9E2;
+}
+
+.mail i{
+font-size: 70px;
+color: #d67940;
+
+}
+.mail p {
+    font-size: 18px;
+    color: black;
+    
+    }
+.SERVICES-M{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1000px, auto));
+        align-items: center;
+        gap: 4rem;
+        
+    padding: 200px;
+    }
+    .box{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 30px 60px;
+        background: #d67940;
+        border-radius: 0.5rem;
+        border-bottom: 9px solid transparent;
+        transition: all .7s ease;
+        cursor: pointer;
+        
+    }
+    .box-icon i{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 90px;
+        width: 60px;
+        background-color: #CCD9E2;
+        color: #285185;
+        border-radius: 1.7rem;
+        font-size: 30px;
+    transition: all .6s ease;
+    
+    }
+    .box-text h5{
+        font-size: 25px;
+        margin-bottom: 8px;
+
+    }
+    .box-text p{
+        font-size: 20px;
+        margin-bottom: 8px;
+
+    }
+
+.des p{
+position: relative;
+align-items: center;
+height: auto;
+width: 100%;
+text-align: center;
+left: 50% ;
+transform: translateX(-50%);
+margin: 5% 0 2% 0;
+font-size: 60px;
+font-weight: 650;
+color: #285185;
+background-color: #CCD9E2;
+letter-spacing: 2.5px;
+
+}
+.REALISATION{
+    position: relative;
+   width: 100%;
+   height: auto;
+
+}
+.REALISATION .gallery{
+    position: relative;
+    height: 100%;
+    width: 90%;
+   margin:auto;
+   overflow: hidden;
+   padding: 45px 0;
+   display: grid;
+   grid-template-columns: auto auto ;
+   grid-gap:2vmin ;
+   grid-auto-flow: dense;
+
+}
+.REALISATION .gallery .img{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+@media(maxwidth: 1580px){
+.header{
+    padding: 15px 6%;
+}
+header.sticky{
+    padding: 3px 6%;
+}
+section{
+    padding: 100px 6% 80px;
+}
+.footer{
+    padding: 15px 6%;
+}
+}
+@media(maxwidth: 1580px){
+    .header{
+        padding: 15px 3%;
+    }
+    header.sticky{
+        padding: 3px 3%;
+    }
+    section{
+        padding: 100px 3% 80px;
+    }
+    .footer{
+        padding: 15px 3%;
+    }
+    }
